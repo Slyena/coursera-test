@@ -1,0 +1,156 @@
+body {
+    font-size: 18px;
+    color:beige;
+    background-color: lightskyblue;
+    font-family: "Montenegrin Gothic One", serif;
+}
+
+/**My header**/
+.initial-loading {
+  margin-top: 60px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: pink;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: "Montenegrin Gothic One", serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid lightskyblue;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*********** Small devices (landscape phones, 576px and up) **********/
+@media (min-width: 576px) { 
+  .section-title h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    color: pink
+  }
+
+
+  .menu-item h4 {
+      font-size: 20px;
+    }
+
+    .price {
+      font-size: 18px;
+    }
+
+
+}
+
+
+
+/************ Medium devices (tablets, 768px and up) **********/
+@media (min-width: 768px) { 
+    .section-title h2 {
+       font-size: 80px;
+       letter-spacing: 1px;
+       font-weight: bolder;
+       padding: 0;
+       margin: 0;
+      color: pink
+    }
+
+    .menu-item h4 {
+      font-size: 25px;
+    }
+
+    .price {
+      font-size: 20px;
+    }
+
+}
+
+/*********** Large devices (desktops, 992px and up) ************/
+@media (min-width: 992px) { 
+    .section-title h2 {
+       font-size: 80px;
+       letter-spacing: 1px;
+       font-weight: bolder;
+       padding: 0;
+       margin: 0;
+      color: pink
+    }
+
+    .menu-item h4 {
+      font-size: 25px;
+    }
+
+    .price {
+      font-size: 20px;
+    }
+}
+
+/*********** X-Large devices (large desktops, 1200px and up) ***********/
+@media (min-width: 1200px) { 
+    .section-title h2 {
+       font-size: 80px;
+       letter-spacing: 1px;
+       font-weight: bolder;
+       padding: 0;
+       margin: 0;
+      color: pink
+    }
+
+    .menu-item h4 {
+      font-size: 25px;
+    }
+
+    .price {
+      font-size: 20px;
+    }
+
+    .menu-item {
+      margin: 20px;
+      border: 100px;
+      border-color: aqua;
+    }
+
+  }
+
+
